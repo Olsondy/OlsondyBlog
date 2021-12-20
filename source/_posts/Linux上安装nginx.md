@@ -10,7 +10,7 @@ date: 2021-12-16
 
 
 # Start
-> 使用的是包管理工具yum进行安装包下载的, 目前安装的是 nginx 1.16.1, 因为操作系统版本比较高,所以nginx也是用目前最新的
+>使用yum安装, 目前安装的是 nginx 1.16.1, 因为操作系统版本比较高, 所以nginx版本也是用目前最新的
 
 ## Environment
  - _OS: CentOS Linux release 8.5.2111_
