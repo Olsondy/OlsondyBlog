@@ -14,5 +14,3 @@ node_modules/
 public/
 .deploy*/
 package-lock.json
-
-.
