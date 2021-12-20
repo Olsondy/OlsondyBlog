@@ -13,7 +13,7 @@ date: 2021-12-16
 >使用yum安装,目前安装的版本是 nginx 1.16.1
 
 ## Environment
- - _OS: CentOS Linux release 8.5.2111
+ - _OS: CentOS Linux release 8.5.2111_
 
 ## Download dependency
   ```shell
