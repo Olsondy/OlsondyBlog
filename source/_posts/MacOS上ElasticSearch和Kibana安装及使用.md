@@ -14,7 +14,7 @@ date: 2021-12-17
 - 本地安装都是单机模式, 只是为了更好的去了解es和kibana, 集群搭建可移至官方教程
 - Elasticsearch的介绍本篇文章就不再赘述了, 安装前可以先提前了解下ES相关的一些概念
 ## Environment
->- OS: MacOS Catalina 10.15.4
+>- MacOS Catalina 10.15.4
 >- homebrew (v3.3.8)
 
 ## Install
