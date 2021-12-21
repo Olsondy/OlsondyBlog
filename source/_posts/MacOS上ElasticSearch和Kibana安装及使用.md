@@ -92,6 +92,8 @@ DyMacBookPro:~ Dy$ curl -XPUT "http://localhost:9200/twitter" -H 'Content-Type: 
 #返回结果
 {"acknowledged":true,"shards_acknowledged":true,"index":"job"}DyMacBookPro:~ Dy$
 ```
+> *noted: 在设置mapping的时候被坑了, 前面说到REST API不同版本的问题, 我开始参阅的是ES中文官方文档, 结果一直设置不成功, 后面在相关版本英文官方文档上找到了这个说明 [Elasticsearch Mapping limit settings](https://www.elastic.co/guide/en/elasticsearch/reference/current/removal-of-types.html)*
+
 #### 新增单个mapping信息, 千万不要使用上面那个初始化的API，因为有可能出现exists error
 ```shell
 DyMacBookPro:~ Dy$ curl -XPUT "localhost:9200/twitter/_mappings?include_type_name=false&pretty" -H 'Content-Type: application/json' -d'
@@ -138,7 +140,7 @@ DyMacBookPro:~ Dy$ curl -XPUT "localhost:9200/twitter/_mappings?include_type_nam
   "status" : 400
 }
 ```
-> 报错了那就说明需要安装plugin
+> 提示参数错误,那就说明需要安装分词plugin
 #### 查看已安装的plugin(空就是没有)
 ```shell
 DyMacBookPro:~ Dy$ curl -XGET localhost:9200/_cat/plugins
