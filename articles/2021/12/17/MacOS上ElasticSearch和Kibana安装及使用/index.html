@@ -6,8 +6,8 @@
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 5.4.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.ico">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
@@ -17,23 +17,23 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"olsondy.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"olsond.tech","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="在MacOS上使用homebrew安装ElasticSearch和Kibana及简单使用">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ElasticSearch和Kibana安装及简单使用">
-<meta property="og:url" content="https://olsondy.github.io/articles/2021/12/17/MacOS%E4%B8%8AElasticSearch%E5%92%8CKibana%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/index.html">
+<meta property="og:url" content="https://olsond.tech/articles/2021/12/17/MacOS%E4%B8%8AElasticSearch%E5%92%8CKibana%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="Olsond">
 <meta property="og:description" content="在MacOS上使用homebrew安装ElasticSearch和Kibana及简单使用">
 <meta property="og:locale">
 <meta property="article:published_time" content="2021-12-16T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-12-20T08:06:15.281Z">
+<meta property="article:modified_time" content="2021-12-21T02:26:58.584Z">
 <meta property="article:author" content="olsond">
 <meta property="article:tag" content="Elastic">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://olsondy.github.io/articles/2021/12/17/MacOS%E4%B8%8AElasticSearch%E5%92%8CKibana%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/">
+<link rel="canonical" href="https://olsond.tech/articles/2021/12/17/MacOS%E4%B8%8AElasticSearch%E5%92%8CKibana%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/">
 
 
 <script id="page-configurations">
@@ -149,10 +149,10 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="https://olsondy.github.io/articles/2021/12/17/MacOS%E4%B8%8AElasticSearch%E5%92%8CKibana%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/">
+    <link itemprop="mainEntityOfPage" href="https://olsond.tech/articles/2021/12/17/MacOS%E4%B8%8AElasticSearch%E5%92%8CKibana%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar_olsond.jpg">
+      <meta itemprop="image" content="/images/avatar_timi.jpeg">
       <meta itemprop="name" content="olsond">
       <meta itemprop="description" content="">
     </span>
@@ -179,7 +179,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-20 16:06:15" itemprop="dateModified" datetime="2021-12-20T16:06:15+08:00">2021-12-20</time>
+                <time title="修改时间：2021-12-21 10:26:58" itemprop="dateModified" datetime="2021-12-21T10:26:58+08:00">2021-12-21</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -210,7 +210,7 @@
 <li>本地安装都是单机模式, 只是为了更好的去了解es和kibana, 集群搭建可移至官方教程</li>
 <li>Elasticsearch的介绍本篇文章就不再赘述了, 安装前可以先提前了解下ES相关的一些概念<h2 id="Environment"><a href="#Environment" class="headerlink" title="Environment"></a>Environment</h2><blockquote>
 <ul>
-<li>OS: MacOS Catalina 10.15.4</li>
+<li>MacOS Catalina 10.15.4</li>
 <li>homebrew (v3.3.8)</li>
 </ul>
 </blockquote>
@@ -247,10 +247,13 @@
 </blockquote>
 <h4 id="新增索引"><a href="#新增索引" class="headerlink" title="新增索引"></a>新增索引</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">DyMacBookPro:~ Dy$ curl -XPUT &quot;http://localhost:9200/twitter&quot;</span><br><span class="line">&#123;&quot;acknowledged&quot;:true,&quot;shards_acknowledged&quot;:true,&quot;index&quot;:&quot;twitter&quot;&#125;DyMacBookPro:~ Dy$</span><br></pre></td></tr></table></figure>
 <h4 id="初始化mapping信息"><a href="#初始化mapping信息" class="headerlink" title="初始化mapping信息"></a>初始化mapping信息</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">DyMacBookPro:~ Dy$ curl -XPUT &quot;http://localhost:9200/twitter&quot; -H &#x27;Content-Type: application/json&#x27; -d&#x27;</span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &#123;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">   <span class="string">&quot;mappings&quot;</span>: &#123;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">      <span class="string">&quot;properties&quot;</span>: &#123;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">         <span class="string">&quot;name&quot;</span>: &#123; <span class="string">&quot;type&quot;</span>: <span class="string">&quot;text&quot;</span> &#125;,</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">         <span class="string">&quot;datetime&quot;</span>: &#123; <span class="string">&quot;type&quot;</span>: <span class="string">&quot;date&quot;</span> &#125;,</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">         <span class="string">&quot;email&quot;</span>: &#123; <span class="string">&quot;type&quot;</span>: <span class="string">&quot;keyword&quot;</span> &#125;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">       &#125;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">   &#125;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &#125;<span class="string">&#x27;</span></span></span><br><span class="line"><span class="meta">#</span><span class="bash"><span class="string">返回结果</span></span></span><br><span class="line">&#123;&quot;acknowledged&quot;:true,&quot;shards_acknowledged&quot;:true,&quot;index&quot;:&quot;job&quot;&#125;DyMacBookPro:~ Dy$</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>noted: 在设置mapping的时候被坑了, 前面说到REST API不同版本的问题, 我开始参阅的是ES中文官方文档, 结果一直设置不成功, 后面在相关版本英文官方文档上找到了这个说明 <a target="_blank" rel="noopener" href="https://www.elastic.co/guide/en/elasticsearch/reference/current/removal-of-types.html">Elasticsearch Mapping limit settings</a></strong></p>
+</blockquote>
 <h4 id="新增单个mapping信息-千万不要使用上面那个初始化的API，因为有可能出现exists-error"><a href="#新增单个mapping信息-千万不要使用上面那个初始化的API，因为有可能出现exists-error" class="headerlink" title="新增单个mapping信息, 千万不要使用上面那个初始化的API，因为有可能出现exists error"></a>新增单个mapping信息, 千万不要使用上面那个初始化的API，因为有可能出现exists error</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">DyMacBookPro:~ Dy$ curl -XPUT &quot;localhost:9200/twitter/_mappings?include_type_name=false&amp;pretty&quot; -H &#x27;Content-Type: application/json&#x27; -d&#x27;</span><br><span class="line">&#123;</span><br><span class="line">  &quot;properties&quot;: &#123; </span><br><span class="line">    &quot;desc&quot;: &#123;</span><br><span class="line">      &quot;type&quot;: &quot;text&quot;</span><br><span class="line">    &#125;                                  </span><br><span class="line">  &#125;                                   </span><br><span class="line">&#125;      </span><br><span class="line">&#x27;</span><br><span class="line"><span class="meta">#</span><span class="bash">返回结果</span></span><br><span class="line">&#123;</span><br><span class="line">  &quot;acknowledged&quot; : true</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h4 id="设置mapping的分词属性"><a href="#设置mapping的分词属性" class="headerlink" title="设置mapping的分词属性"></a>设置mapping的分词属性</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">DyMacBookPro:~ Dy$ curl -XPUT &quot;localhost:9200/twitter/_mappings?include_type_name=false&amp;pretty&quot; -H &#x27;Content-Type: application/json&#x27; -d&#x27;</span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &#123;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">   <span class="string">&quot;properties&quot;</span>: &#123;</span> </span><br><span class="line"><span class="meta">&gt;</span><span class="bash">     <span class="string">&quot;message&quot;</span>: &#123;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">       <span class="string">&quot;type&quot;</span>: <span class="string">&quot;text&quot;</span>,</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">       <span class="string">&quot;analyzer&quot;</span>: <span class="string">&quot;ik_smart&quot;</span></span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">     &#125;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">   &#125;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> &#125;</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> <span class="string">&#x27;</span></span></span><br><span class="line">&#123;</span><br><span class="line">  &quot;error&quot; : &#123;</span><br><span class="line">    &quot;root_cause&quot; : [</span><br><span class="line">      &#123;</span><br><span class="line">        &quot;type&quot; : &quot;mapper_parsing_exception&quot;,</span><br><span class="line">        &quot;reason&quot; : &quot;Failed to parse mapping [_doc]: analyzer [ik_max_word] has not been configured in mappings&quot;</span><br><span class="line">      &#125;</span><br><span class="line">    ],</span><br><span class="line">    &quot;type&quot; : &quot;mapper_parsing_exception&quot;,</span><br><span class="line">    &quot;reason&quot; : &quot;Failed to parse mapping [_doc]: analyzer [ik_max_word] has not been configured in mappings&quot;,</span><br><span class="line">    &quot;caused_by&quot; : &#123;</span><br><span class="line">      &quot;type&quot; : &quot;illegal_argument_exception&quot;,</span><br><span class="line">      &quot;reason&quot; : &quot;analyzer [ik_max_word] has not been configured in mappings&quot;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  &quot;status&quot; : 400</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>报错了那就说明需要安装plugin</p>
+<p>提示参数错误,那就说明需要安装分词plugin</p>
 </blockquote>
 <h4 id="查看已安装的plugin-空就是没有"><a href="#查看已安装的plugin-空就是没有" class="headerlink" title="查看已安装的plugin(空就是没有)"></a>查看已安装的plugin(空就是没有)</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">DyMacBookPro:~ Dy$ curl -XGET localhost:9200/_cat/plugins</span><br><span class="line">DyMacBookPro:~ Dy$ </span><br></pre></td></tr></table></figure>
 <h4 id="安装plugin"><a href="#安装plugin" class="headerlink" title="安装plugin"></a>安装plugin</h4><blockquote>
@@ -370,7 +373,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="olsond"
-      src="/images/avatar_olsond.jpg">
+      src="/images/avatar_timi.jpeg">
   <p class="site-author-name" itemprop="name">olsond</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -424,7 +427,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2021</span>
+  <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
